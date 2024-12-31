@@ -1,3 +1,6 @@
+i have one wordpress page and two plugins (so far). The journal Plugin and The Archive plugin. Id like to create a "role designator" plugin for wordpress that assigns different roles based on the type of user i have. Id like the users to be "menoffire" users with full access to all plugins and "ignite30" users who only have access to what i choose.
+
+
 // This plugin provides:
 
 // Two custom roles:
