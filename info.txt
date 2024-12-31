@@ -1,0 +1,28 @@
+// This plugin provides:
+
+// Two custom roles:
+
+// menoffire: Full access to both Journal and Archive plugins
+// ignite30: Access to Journal only
+
+
+// Admin features:
+
+// Role management page under "Role Designator" in the admin menu
+// Bulk actions to set users as either Men of Fire or Ignite 30
+// Individual user role switching
+
+
+// Helper function rd_can_access() that other plugins can use to check permissions
+
+// To use this in your other plugins, you would do something like:
+
+// In your Journal plugin
+if (rd_can_access('journal')) {
+    // Show journal content
+}
+
+// In your Archive plugin
+if (rd_can_access('archive')) {
+    // Show archive content
+}
